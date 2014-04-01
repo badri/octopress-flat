@@ -11,6 +11,7 @@ aside.sidebar {
     line-height: 1.4em;
     margin-bottom: 1.5em;
     h1 {
+      font-family: $heading-font-family;
       margin: 1.5em 0 0;
       padding-bottom: .2em;
       + p {

@@ -17,9 +17,10 @@
     margin-bottom: .3em;
     font-size: 1.2em;
     a {
+	
       @include hover-link;
       color: inherit;
-      &:hover { color: $link-color-hover; }
+      &:hover { color: $link-color-hover;  text-decoration: none;}
       font-weight: normal;
       display: inline-block;
     }
@@ -64,7 +65,7 @@
     a.category {
       line-height: 1.1em;
       color: $yellow;
-      padding: 5px;
+      padding: 10px;
       &:hover {
         color: $darkBrick;
       }

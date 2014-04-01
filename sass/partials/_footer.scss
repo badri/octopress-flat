@@ -1,8 +1,8 @@
 body > footer {
-  @extend .sans;
+  font-family: $heading-font-family;
   font-size: .8em;
   color: $white;
-  background-color: $darkBrick;
+  background-color: $footer-bg;
   position: relative;
   padding-top: 1em;
   padding-bottom: 1em;

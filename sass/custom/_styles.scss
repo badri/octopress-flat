@@ -1,2 +1,14 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+#recent_posts, #delicious {
+  font-family: $heading-font-family;
+  background: $img-border top left repeat-x;
+  a:hover {
+      color: $link-color-hover;
+  }
+}
+
+#blog-archives h1 {
+  font-family: $heading-font-family;
+}

@@ -60,6 +60,7 @@ h1 {
     margin-right: 10px;
     color: $yellow;
     text-decoration: none;
+    @include border-radius(15px);
     &:hover {
       background-color: $yellow;
       color: $darkBrick;
@@ -75,8 +76,8 @@ h1 {
 #{headings()}{
   text-rendering: optimizelegibility;
   margin-bottom: 1em;
-  font-weight: bold;
 }
+
 h2, section h1 {
   font-size: 1.5em;
 }
